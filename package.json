@@ -1,0 +1,40 @@
+{
+  "name": "conventional-changelog-typo3",
+  "version": "0.0.1",
+  "description": "conventional-changelog typo3 preset",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "mocha --timeout 30000 && npm run-script lint",
+    "test-windows": "mocha --timeout 30000"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "typo3",
+    "preset"
+  ],
+  "author": "Steve Mao",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "license": "ISC",
+  "files": [
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "devDependencies": {
+    "conventional-changelog-core": "^3.1.0",
+    "git-dummy-commit": "^1.2.0",
+    "shelljs": "^0.8.0",
+    "through2": "^2.0.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "q": "^1.5.1"
+  }
+}
