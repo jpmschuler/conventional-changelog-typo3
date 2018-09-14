@@ -19,6 +19,7 @@
   {{~header}}
 {{~/if}}
 {{~!-- commit references --}}{{~#if references~}}{{~#each references}}
+
         {{#if @root.linkReferences~}}rels issue [
   {{~#if this.owner}}
     {{~this.owner}}/
@@ -48,6 +49,7 @@
       {{~this.owner}}/
     {{~/if}}
     {{~this.repository}}#{{this.issue}}
+
 
   {{~/if}}{{/each}}
 {{~/if}}
