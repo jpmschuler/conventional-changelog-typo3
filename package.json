@@ -36,5 +36,12 @@
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "q": "^1.5.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@softec-team.wiwinf.uni-due.de:typo3/build-tools/conventional-changelog-type.git"
   }
 }
