@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-typo3",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "conventional-changelog typo3 preset",
   "main": "index.js",
   "scripts": {
@@ -27,14 +27,14 @@
     "templates"
   ],
   "devDependencies": {
-    "conventional-changelog-core": "^3.1.0",
+    "conventional-changelog-core": "^3.1.6",
     "git-dummy-commit": "^1.2.0",
-    "shelljs": "^0.8.0",
-    "through2": "^2.0.0"
+    "shelljs": "^0.8.3",
+    "through2": "^3.0.1"
   },
   "dependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
     "q": "^1.5.1"
   },
   "directories": {
