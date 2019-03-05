@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-typo3",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "conventional-changelog typo3 preset",
   "main": "index.js",
   "scripts": {
@@ -42,6 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@softec-team.wiwinf.uni-due.de:typo3/build-tools/conventional-changelog-type.git"
+    "url": "git@github.com:jpmschuler/conventional-changelog-typo3.git"
   }
 }
