@@ -1,6 +1,6 @@
 {
-  "name": "@jpmschuler/conventional-changelog-typo3",
-  "version": "0.3.1",
+  "name": "conventional-changelog-typo3",
+  "version": "0.3.2",
   "description": "conventional-changelog typo3 preset",
   "main": "index.js",
   "scripts": {
@@ -42,6 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jpmschuler/conventional-changelog-typo3.git"
-  }
+    "url": "git+ssh://git@github.com/jpmschuler/conventional-changelog-typo3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpmschuler/conventional-changelog-typo3/issues"
+  },
+  "homepage": "https://github.com/jpmschuler/conventional-changelog-typo3#readme"
 }
