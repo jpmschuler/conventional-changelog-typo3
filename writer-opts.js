@@ -20,7 +20,7 @@ module.exports = Q.all([
         return writerOpts
     })
 
-function getWriterOpts () {
+function getWriterOpts() {
     return {
         transform: (commit, context) => {
             let discard = true
@@ -36,6 +36,8 @@ function getWriterOpts () {
             } else if (commit.tag === `FEATURE`) {
                 commit.type = `Features`
             } else if (commit.tag === `BUGFIX`) {
+                commit.type = `Bug Fixes`
+            } else if (commit.tag === `REGRESSION`) {
                 commit.type = `Bug Fixes`
             } else if (commit.type === `perf`) {
                 commit.type = `Performance Improvements`
