@@ -1,12 +1,10 @@
 {
   "name": "conventional-changelog-typo3",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "conventional-changelog typo3 preset",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --fix .",
-    "test": "mocha --timeout 30000 && npm run-script lint",
-    "test-windows": "mocha --timeout 30000"
+    "release": "npm version minor && npm publish --access public"
   },
   "keywords": [
     "conventional-changelog",
@@ -52,8 +50,5 @@
   "bugs": {
     "url": "https://github.com/jpmschuler/conventional-changelog-typo3/issues"
   },
-  "homepage": "https://github.com/jpmschuler/conventional-changelog-typo3#readme",
-  "scripts":{
-    "release": "npm version minor && npm publish --access public"
-  }
+  "homepage": "https://github.com/jpmschuler/conventional-changelog-typo3#readme"
 }
